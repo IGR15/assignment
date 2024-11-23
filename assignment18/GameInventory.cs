@@ -9,6 +9,7 @@ public class GameInventory : MonoBehaviour
         Inventory potionsInventory = new Inventory();
         potionsInventory.AddItem("healing potion");
         potionsInventory.AddItem("strength potion");
+        
 
         Inventory elixirsInventory = new Inventory();
         elixirsInventory.AddItem("elixir");
