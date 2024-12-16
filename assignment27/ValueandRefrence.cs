@@ -12,11 +12,11 @@ namespace Assignment27
             int a = 5;
             int b = 10;
 
-            Debug.Log($"Before CallByValue: a = {a}");
+            Debug.Log($"Before CallByValue method: a = {a}");
             CallByValue(a);
             Debug.Log($"After: a = {a}");
 
-            Debug.Log($"Before  CallByReference: a = {b}");
+            Debug.Log($"Before  CallByReference method: a = {b}");
             CallByReference(ref b);
             Debug.Log($"After: a = {b}");
 
