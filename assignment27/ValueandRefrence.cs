@@ -22,7 +22,7 @@ namespace Assignment27
 
             int c;
             Outmethod(out c);
-            Debug.Log($"After UseOutKeyword: c = {c}");
+            Debug.Log($"After UseOutKeyword method: c = {c}");
         }
 
         void CallByValue(int number)
